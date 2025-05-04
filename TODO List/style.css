@@ -1,0 +1,128 @@
+body {
+    background-color: #F9CB43;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures full height */
+}
+
+#container {
+    background-color: #B2A5FF;
+    height: 38rem;
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Prevents it from becoming too wide */
+    margin-top: 0rem;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.head {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #493D9E;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #FFEB00;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inputBox {
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+input {
+    flex: 1;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    min-width: 60%;
+}
+
+button {
+    height: 3.5rem;
+    font-size: 1rem;
+    background-color: #155E95;
+    color: #ffff;
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#taskList {
+    background-color: #FFFDEC;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    height: 4rem;
+    margin: 1rem auto;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.4rem;
+    width: 90%;
+}
+
+#delete {
+    height: 3rem;
+    width: 30%;
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 95%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    input {
+        min-width: 80%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    #taskList {
+        font-size: 1.2rem;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    #delete {
+        width: 50%;
+        font-size: 0.9rem;
+    }
+}

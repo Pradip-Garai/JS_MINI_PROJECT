@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to left, rgb(30, 2, 245),rgb(35, 5, 248), rgb(139, 2, 237),rgb(247, 6, 227),rgb(249, 8, 137));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 40rem;
+    width: 40rem;
+    /* background: linear-gradient(to right,rgb(35, 5, 248), rgb(249, 8, 237),rgb(255, 111, 0)); */
+    background-color: white;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+h1{
+    color: rgb(252, 5, 149);
+    font-size: 44px;
+    margin-top: 1rem;
+    margin-left: 12.5rem;
+}
+input{
+    width: 28rem;
+    height: 3rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#btn{
+    height: 3.2rem;
+    width: 6rem; 
+    padding: 0.2rem;  
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    padding-top: 0.8rem;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+}
+#list{
+    /* background-color: rgb(139, 36, 36); */
+    background: linear-gradient(to right,rgb(152, 16, 226),rgb(149, 30, 213),rgb(231, 7, 179));
+    width: 36rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+    display: flex;
+
+}
+#contain{
+  height: 4rem;
+  width: 33rem;
+  font-size: 30px;
+  color: white;
+}
+#delBtn{
+    width: 3rem;
+    border-radius: 10px;
+}
+img{
+    height: 39px;
+    width: 39px;
+    margin-right: 1rem;
+}
