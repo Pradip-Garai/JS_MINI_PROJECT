@@ -14,3 +14,6 @@
 
 <!-- ToDo list -->
 5.https://pradip-garai.github.io/TODO_APP/
+
+<!-- AI Assistance -->
+6.https://pradip-garai.github.io/Virtual_Assistant/
